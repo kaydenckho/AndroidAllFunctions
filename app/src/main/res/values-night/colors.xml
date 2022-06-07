@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F9A411</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#009900</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_blue">#2a4880</color>
+    <color name="brown">#838383</color>
+    <color name="light_brown">#ECECEC</color>
+    <color name="gray">#ddd6d0</color>
+    <color name="darkgray">#85817d</color>
+    <color name="light_gary">#f4f7f8</color>
+    <color name="limestone">#BDBDBD</color>
+    <color name="baby_blue">#f2faff</color>
+    <color name="pare_red">#FE2E64</color>
+    <color name="app_background">#f4f7f8</color>
+    <color name="menu_header">#F9A411</color>
+    <color name="menu_bg">#1b5985</color>
+    <color name="menu_expand">#2c678f</color>
+    <color name="menu_collapse">#1b5985</color>
+    <color name="menu_separator">#35769b</color>
+    <color name="title">#666666</color>
+    <color name="transparent">#9000</color>
+    <color name="full_transparent">#00ffffff</color>
+    <color name="transparent_with_50">#77FFFFFF</color>
+    <color name="bg_transparent">#cc000000</color>
+    <color name="user_guide_background">#333333</color>
+    <color name="index_update_time">#888888</color>
+    <color name="load_grey">#777777</color>
+    <color name="load_background">#80cccccc</color>
+    <color name="blur_background">#E6505050</color>
+    <color name="division_line">#33333333</color>
+    <color name="division_line_dark">#A2A2A2</color>
+
+    <!-- welcome -->
+    <color name="welcome_background">#9b0909</color>
+
+    <!-- header -->
+    <color name="header_background">#0066cc</color>
+    <color name="setting_background">#cc0022</color>
+    <color name="setting_button_color">#e0FFFFFF</color>
+    <color name="footer_background">#222222</color>
+    <color name="content_title_bar">#f7f5f4</color>
+    <color name="content_title_text">#000000</color>
+
+    <!-- tab -->
+    <color name="tab_selected_text">#ff0033</color>
+    <color name="tab_selected_background">#ffffff</color>
+    <color name="tab_background">#cccccc</color>
+    <color name="tab_text">#666666</color>
+
+    <!-- left  content -->
+    <color name="liner_line">#000000</color>
+    <color name="content_text">#000000</color>
+    <color name="content_text_white">#ffffff</color>
+    <color name="content_date_text">#333333</color>
+    <color name="content_year_text">#000000</color>
+    <color name="description_webview_bg">#f3f3f1</color>
+    <color name="left_content_title_bg">#f3f3f1</color>
+    <color name="left_content_bg">#e3e4de</color>
+    <color name="left_content_line">#f4f4f2</color>
+
+    <!-- right  content -->
+    <color name="right_title_bg">#272727</color>
+    <color name="right_content_text">#ffffff</color>
+
+    <!-- left  menu -->
+    <color name="left_menu_bg">#333333</color>
+    <color name="left_menu_title_bg">#c5c5c5</color>
+    <color name="left_menu_text">#000000</color>
+    <color name="left_menu_active">#cc0000</color>
+    <color name="left_menu_active_header">#c5c5c5</color>
+    <color name="left_menu_line">#999999</color>
+    <color name="left_menu_email_num_bg">#cc0000</color>
+    <color name="left_menu_subitem">#efefef</color>
+
+    <!-- thumbnail -->
+    <color name="thumbnail_top_bar">#a0000000</color>
+    <color name="thumbnail_text_in_top_bar">#ffffff</color>
+    <color name="thumbnail_thumbs_background">#b0000000</color>
+    <color name="thumbnail_number">#000000</color>
+    <color name="thumbnail_banner_border">#ffffff</color>
+    <color name="thumbnail_active_cover_border">#ff9900</color>
+    <color name="thumbnail_active_number_background">#ff9900</color>
+    <color name="thumbnail_active_number">#ffffff</color>
+    <color name="thumbnail_black">#e0333333</color>
+
+    <!-- setting -->
+    <color name="setting_item_bg">#D3D3D3</color>
+    <color name="setting_title_bar">#f0f0f0</color>
+    <color name="setting_title_text">#000000</color>
+    <color name="setting_non_active_bg">#ffffff</color>
+    <color name="setting_non_active_text_left">#000000</color>
+    <color name="setting_non_active_text_right">#999999</color>
+    <color name="setting_active_bg">#27c8a0</color>
+    <color name="setting_active_text_left">#ffffff</color>
+    <color name="setting_active_text_right">#ffffff</color>
+
+    <!-- setting  dialog -->
+    <color name="setting_dialog_bg">#fbfbfb</color>
+    <color name="setting_dialog_top_bar_bg">#604646</color>
+    <color name="setting_dialog_top_bar_text">#eeeeee</color>
+    <color name="setting_dialog_form_bg">#eeeeee</color>
+    <color name="setting_dialog_form_text">#000000</color>
+    <color name="setting_dialog_form_border">#dddddd</color>
+    <color name="setting_dialog_form_line">#dddddd</color>
+    <color name="setting_dialog_send_icon_bg">#ffffff</color>
+    <color name="setting_dialog_send_icon_border">#f5a200</color>
+    <color name="setting_dialog_send_icon_text">#000000</color>
+    <color name="setting_dialog_send_icon_image_bg">#f5a200</color>
+    <color name="setting_dialog_remove_icon_bg">#c83210</color>
+    <color name="setting_dialog_remove_icon_border">#c83210</color>
+    <color name="setting_dialog_remove_icon_text">#ffffff</color>
+    <color name="setting_dialog_remove_icon_image_bg">#c83210</color>
+
+    <!-- classificationactivity -->
+    <color name="classificationactivity_daily_recently">#000000</color>
+    <color name="classificationactivity_daily_title">#c8080f</color>
+    <color name="classificationactivity_daily_published">#f86f6f</color>
+    <color name="classificationactivity_weekly_recently">#000000</color>
+    <color name="classificationactivity_weekly_title">#604646</color>
+    <color name="classificationactivity_weekly_published">#f86f6f</color>
+    <color name="classificationactivity_album_recently">#000000</color>
+    <color name="classificationactivity_album_title">#333f4c</color>
+    <color name="classificationactivity_album_published">#f86f6f</color>
+
+    <!-- newspaperactivity -->
+    <color name="newspaperactivity_item_left_bg">#666666</color>
+    <color name="newspaperactivity_vertical_line">#8f8f8f</color>
+    <color name="newspaperactivity_Horizontal_line">#666666</color>
+
+    <!-- button -->
+    <color name="textview_black_line">#333333</color>
+    <color name="textview_white_line">#FFFFFF</color>
+    <color name="textview">#000000</color>
+    <color name="imageview_red_bg">#c83210</color>
+    <color name="imageview_gray_bg">#333333</color>
+    <color name="clicked">#b3cdd1</color>
+
+    <color name="article_gift_layout">#80F0F4F8</color>
+    <color name="button_pressed">#ccc9e3fc</color>
+    <color name="button_focus">#ccc9e3fc</color>
+
+    <color name="download_background">#9b0909</color>
+    <color name="download_border">#3c8ed8</color>
+    <color name="download_separator">#c0c0c0</color>
+    <color name="download_title">#ffffff</color>
+    <color name="download_subtitle1">#3c8ed8</color>
+    <color name="download_subtitle2">#444444</color>
+    <color name="download_button_blue">#0a5b93</color>
+    <color name="download_button_red">#c90004</color>
+    <color name="download_button_text">#ffffff</color>
+
+    <color name="calendar_current_date">#c1e7ff</color>
+    <color name="calendar_select_date">#B71C1C</color>
+
+    <color name="login_button">#c90004</color>
+    <color name="login_fix_tab">#b9b9b9</color>
+    <color name="login_fix_error_msg_bg">#630002</color>
+    <color name="login_box_subscribe">#ff7700</color>
+    <color name="login_box_login">#3c8ed8</color>
+    <color name="login_submit_btn">#b61225</color>
+    <color name="login_email_text">#5e5d5c</color>
+
+    <color name="list_homepage">#cc0022</color>
+    <color name="list_realtime_news">#11aa00</color>
+    <color name="list_invest">#ff7700</color>
+    <color name="list_china">#aa0000</color>
+    <color name="list_topick">#ee2211</color>
+    <color name="list_column">#6600cc</color>
+    <color name="list_news">#ffaa11</color>
+    <color name="list_video">#007acc</color>
+    <color name="list_epc">#0066cc</color>
+    <color name="list_special">#997755</color>
+
+    <color name="footer_not_select">#808080</color>
+
+    <color name="calendar_overdate">#b6b6b6</color>
+    <color name="calendar_text">#636363</color>
+
+    <color name="article_share_default">#cc0022</color>
+    <color name="article_share_selected">#680011</color>
+
+    <color name="article_p2p_loading_hint">#666666</color>
+
+    <color name="index_bar_green">#00d700</color>
+    <color name="index_bar_red">#cd0202</color>
+    <color name="bookmark_edit_a">#2275d4</color>
+
+    <color name="edit_text_hint">#a2a2a2</color>
+    <color name="edit_text_underline">#a2a2a2</color>
+    <color name="edit_text_underline_select">#484848</color>
+
+    <!--ul-->
+    <color name="ul_dark">#333333</color>
+    <color name="ul_medium">#777777</color>
+    <color name="ul_light">#bbbbbb</color>
+    <color name="ul_very_light">#ffffff</color>
+    <color name="ul_cancel_blue">#2275d4</color>
+    <color name="ul_background_disable">#E4E4E4</color>
+    <color name="ul_text_disable">#BBBBBB</color>
+    <color name="ul_uHK">#2E63F6</color>
+    <color name="ul_uTravel">#4DAC4A</color>
+    <color name="ul_uFood">#F29132</color>
+    <color name="ul_uBeauty">#FC4C81</color>
+    <color name="ul_uBlog">#E8CCB1</color>
+    <color name="ul_SkyPost">#F69733</color>
+    <color name="ul_eZone">#F0872D</color>
+
+    <color name="ul_btn_default_text">#ffffff</color>
+    <color name="ul_btn_pressed_text">#2E63F6</color>
+    <color name="ul_btn_default_background">#559CDF</color>
+    <color name="ul_btn_hover_background">#D0DBF8</color>
+    <!--<color name="ul_btn_hover_background">#DCBECCF3</color>-->
+    <color name="ul_btn_pressed_background">#3087D9</color>
+
+    <color name="ul_main_background">#F7FAFD</color>
+
+    <color name="ul_field_color">#B9B9B9</color>
+    <color name="ul_field_focus_color">#3087D9</color>
+    <color name="ul_OrView_color">#F2F2F2</color>
+
+    <!-- main listing -->
+    <color name="main_list_gray">#A2A2A2</color>
+
+    <color name="ul_blue">#3087D9</color>
+    <color name="ul_blue_559CDF">#559CDF</color>
+    <color name="ul_gary">#999999</color>
+    <color name="ul_light_gary">#cccccc</color>
+    <color name="ul_tab_background">#FBFBFB</color>
+    <color name="ul_default_black">#333333</color>
+    <color name="ul_tab_text">#999999</color>
+    <color name="ul_tab_selected_text">#333333</color>
+
+    <color name="ul_article_view_count_tab">#A2A2A2</color>
+    <color name="ul_article_line">#E0E0E0</color>
+
+    <color name="ul_sup_tab_background">#000000</color>
+
+    <color name="rll_layout_bg_color">#00ffffff</color>
+    <color name="rll_text_color">#666666</color>
+
+    <color name="ul_reaction_selected">#333333</color>
+    <color name="ul_reaction_unselected">#A2A2A2</color>
+
+    <color name="bookmark_background">#CC333333</color>
+    <color name="e_coupon_background">#B3000000</color>
+    <color name="bookmark_background_Out">#3087D9</color>
+
+    <color name="ul_tab_unselected">#9AFFFFFF</color>
+
+    <color name="ul_mission_button_yalow">#FFCd00</color>
+    <color name="ul_mission_button_blue">#3087D9</color>
+    <color name="ul_mission_button_grey">#A2A2A2</color>
+
+    <color name="ul_member_recyclerView_bg">#EBEEF0</color>
+
+    <color name="ul_gift_image_gallery_on">#559CDF</color>
+    <color name="ul_gift_image_gallery_off">#C6DDF4</color>
+
+    <color name="ul_status_bar">#7e7e7e</color>
+
+    <color name="ul_nav_jetSo_text_active">#FF4268</color>
+    <color name="ul_nav_normal_text_active">#3087D9</color>
+    <color name="ul_nav_normal_text_inactive">#7A7F83</color>
+    <color name="ul_nav_background">#F9F9F9</color>
+
+    <color name="transparent_tag">#4D555555</color>
+    <color name="gift_remind_banner">#3087D9</color>
+
+    <color name="notification_centre_dot_color">#00C891</color>
+
+    <color name="gray_light">#BBBBBB</color>
+    <color name="gray_very_light">#DDDDDD</color>
+
+
+    <!--    <color name="normal_background">#f9f9f9</color>-->
+    <color name="normal_background">#ffffff</color>
+    <color name="tv_background">@color/video_background</color>
+    <color name="tv_normal_text">#ffffff</color>
+    <color name="tv_slider_more">#666666</color>
+    <color name="tv_profile_follow">#A3A3A3</color>
+
+    <!--    <color name="referral_my_invite_code_btn_text">#3087D9</color>-->
+    <color name="referral_my_invite_code_btn_text">#F3A222</color>
+    <color name="referral_bg">#FFFAF3</color>
+    <color name="referral_my_invite_line">#DDE1E5</color>
+    <color name="referral_my_invite_marks_record">#3087D9</color>
+    <color name="referral_my_invite_code_title">#384047</color>
+    <color name="referral_my_invite_code_not_validate_title">#606E7A</color>
+    <color name="referral_my_invite_my_code_text_color">#384047</color>
+    <color name="referral_my_invite_code_end_subtitle">#384047</color>
+    <color name="referral_my_invite_code_invite_fd_title">#384047</color>
+    <color name="referral_fd_invite_title">#384047</color>
+    <color name="referral_fd_invite_code_title">#606E7A</color>
+    <color name="referral_fd_invite_code_input_hint">#AAB4BD</color>
+    <!--    <color name="referral_fd_invite_code_selected">#3087D9</color>-->
+    <color name="referral_fd_invite_code_selected">#F3A222</color>
+    <color name="referral_my_invite_share_code_bg_yellow">#F3A222</color>
+    <color name="referral_fd_invite_code_disable">#EBEBEB</color>
+
+    <color name="referral_my_invite_code_status_title">#333333</color>
+
+    <color name="order_history_product_desc">#A2A2A2</color>
+    <color name="order_history_ufun_amount">#F54C53</color>
+    <color name="order_detail_refund">#7E7E7E</color>
+    <color name="order_detail_dark_grey">#333333</color>
+    <color name="order_detail_line_background">#F2F2F2</color>
+
+
+    <!-- chat room -->
+    <color name="chat_room_background">#2C282B</color>
+    <color name="chat_room_dim2">#3E3E3E</color>
+    <color name="chat_room_dim3">#636363</color>
+    <color name="chat_room_dim4">#A7A7A7</color>
+
+    <!-- CMU -->
+    <!-- Post Detail -->
+    <color name="cmu_post_detail_user_name_title">#333333</color>
+    <color name="cmu_post_detail_time">#A2A2A2</color>
+    <color name="cmu_post_detail_group_color">#00C891</color>
+    <color name="cmu_post_detail_group_line">#EAEAEA</color>
+    <color name="cmu_post_detail_content_color">#757575</color>
+    <color name="cmu_post_detail_reply">#7E7E7E</color>
+    <color name="cmu_post_detail_more">#A2A2A2</color>
+    <color name="cmu_post_detail_title">#333333</color>
+    <color name="cmu_post_detail_comment_item_horizontal_line">#F2F2F2</color>
+    <color name="cmu_post_detail_comment_first_comment">#3087D9</color>
+    <color name="cmu_bottom_sheet_icon">#5A5A5A</color>
+
+    <!-- cmu -->
+    <color name="cmu_background">#F5F5F5</color>
+    <!--    <color name="color_F5F5F5">#F5F5F5</color>-->
+    <color name="color_757575">#757575</color>
+
+    <!-- Calendar -->
+    <color name="calendar_orginal_price">#333333</color>
+    <color name="calendar_discount_price">#F54C53</color>
+    <color name="calendar_orignal_price_w_discount">#999999</color>
+
+    <color name="video_background">#2C282B</color>
+    <color name="video_dim2">#3E3E3E</color>
+    <color name="video_dim3">#5A5A5A</color>
+
+    <!-- TV -->
+    <color name="tv_video_list_playing">#BFffffff</color>
+    <color name="tv_video_list_normal">#ffffff</color>
+
+
+    <!-- TV Detail-->
+    <color name="tv_video_detail_white_2">#464446</color>
+
+    <!-- TV listing -->
+    <color name="tv_listing_tab_selected_bg">#FFFFFF</color>
+    <color name="tv_listing_tab_unselected_bg">@color/video_background</color>
+
+    <color name="tv_listing_tab_selected_text_color">@color/video_background</color>
+    <color name="tv_listing_tab_unselected_text_color">#FFFFFF</color>
+
+    <color name="tv_listing_update_title">#FFFFFF</color>
+
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#1A1A1A</color>
+
+
+    <color name="testbg">#000000</color>
+</resources>

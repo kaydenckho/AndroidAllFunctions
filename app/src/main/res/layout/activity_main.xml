@@ -1,0 +1,151 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true"
+        android:rowCount="5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:id="@+id/wifiBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/wifi" />
+
+        <ImageButton
+            android:id="@+id/bluetoothBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/bluetooth" />
+
+        <ImageButton
+            android:id="@+id/flashlightBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/flashlight" />
+
+        <ImageButton
+            android:id="@+id/autorotateBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/autorotate" />
+
+        <ImageButton
+            android:id="@+id/flightModeBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/airplanemode" />
+
+        <ImageButton
+            android:id="@+id/mobileDataBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/mobiledata" />
+
+        <ImageButton
+            android:id="@+id/screenshotBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/screenshot" />
+
+        <ImageButton
+            android:id="@+id/locationBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/location" />
+
+        <ImageButton
+            android:id="@+id/nfcBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/nfc" />
+
+        <ImageButton
+            android:id="@+id/doNotDisturbBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/donotdisturb" />
+
+        <ImageButton
+            android:id="@+id/pipBtn"
+            style="@style/MyImageButton"
+            android:src="@drawable/pipmode" />
+
+        <ImageButton
+            android:id="@+id/ringerModeBtn"
+            style="@style/MyImageButton"
+            android:visibility="gone"/>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/brightness_tv"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Brightness"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/GridLayout1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/brightness_seekbar"
+        />
+
+    <SeekBar
+        android:id="@+id/brightness_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/brightness_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="6dp"
+        />
+
+    <TextView
+        android:id="@+id/volume_tv"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Volume"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/brightness_seekbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/volume_seekbar"
+        />
+
+    <SeekBar
+        android:id="@+id/volume_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/volume_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="6dp"
+        />
+
+    <com.vanniktech.emoji.EmojiEditText
+        android:id="@+id/chatRoomInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="20dp"
+        android:singleLine="true"
+        android:inputType="textUri|text"
+        android:imeOptions="actionSend"
+        android:textColor="#000000"
+        android:textColorHint="@color/chat_room_dim4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
